@@ -1,0 +1,2 @@
+# junglestory-boilerplate
+Boilerplate project
