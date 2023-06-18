@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS public.board
     contents text COLLATE pg_catalog."default" NOT NULL,
     writer character varying(50) COLLATE pg_catalog."default" NOT NULL,
     view_count integer NOT NULL,
-    link_url character varying(200) COLLATE pg_catalog."default" NOT NULL,
+    link_url character varying(200) COLLATE pg_catalog."default" NULL,
     create_date timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
     update_date timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT board_pkey PRIMARY KEY (board_no)
